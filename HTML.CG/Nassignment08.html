@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Elements Showcase</title>
+</head>
+<body>
+
+  <nav>
+    <a href="#block">Block Elements</a>
+    <a href="#inline">Inline Elements</a>
+    <a href="#comparison">Comparison</a>
+  </nav>
+
+  <h1>HTML Elements Showcase – Inline vs Block</h1>
+
+  <p>
+    In HTML, elements are categorized into two main types: 
+    <strong>block-level elements</strong> and <em>inline elements</em>.
+    Block elements start on a new line and usually occupy the full width, 
+    while inline elements do not break the flow of text and only take up as much width as necessary.
+  </p>
+
+  <h2 id="block">Block Elements</h2>
+
+  <div class="example">
+    <div>This is a &lt;div&gt; element.</div>
+    <p>The &lt;div&gt; is a generic block container, often used for grouping.</p>
+  </div>
+
+  <div class="example">
+    <p>This is a paragraph inside a &lt;p&gt; tag.</p>
+    <p>The &lt;p&gt; defines a block of text as a paragraph.</p>
+  </div>
+
+  <div class="example">
+    <h1>Heading Level 1</h1>
+    <h2>Heading Level 2</h2>
+    <h3>Heading Level 3</h3>
+    <h4>Heading Level 4</h4>
+    <h5>Heading Level 5</h5>
+    <h6>Heading Level 6</h6>
+    <p>Headings (&lt;h1&gt;–&lt;h6&gt;) represent section titles.</p>
+  </div>
+
+  <div class="example">
+    <ul>
+      <li>Apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+    </ul>
+    <p>The &lt;ul&gt; tag creates an unordered list.</p>
+  </div>
+
+  <div class="example">
+    <ol>
+      <li>Step One</li>
+      <li>Step Two</li>
+    </ol>
+    <p>The &lt;ol&gt; tag creates an ordered list.</p>
+  </div>
+
+  <div class="example">
+    <blockquote>
+      “This is a blockquote, used for longer quoted text.”
+    </blockquote>
+    <p>The &lt;blockquote&gt; is used for quoted sections.</p>
+  </div>
+
+  <div class="example">
+    <hr>
+    <p>The &lt;hr&gt; tag inserts a thematic horizontal line.</p>
+  </div>
+
+  <div class="example">
+    <table>
+      <tr>
+        <td>Row 1, Col 1</td>
+        <td>Row 1, Col 2</td>
+      </tr>
+      <tr>
+        <td>Row 2, Col 1</td>
+        <td>Row 2, Col 2</td>
+      </tr>
+    </table>
+    <p>The &lt;table&gt; tag creates a table structure.</p>
+  </div>
+
+  <h2 id="inline">Inline Elements</h2>
+
+  <div class="example">
+    <p>This is a <span>span element</span> inside text.</p>
+    <p>&lt;span&gt; is a generic inline container.</p>
+  </div>
+
+  <div class="example">
+    <p>Visit <a href="https://www.example.com">this link</a> for more info.</p>
+    <p>&lt;a&gt; creates a hyperlink.</p>
+  </div>
+
+  <div class="example">
+    <p><b>Bold text</b> and <strong>important text</strong>.</p>
+    <p>&lt;b&gt; and &lt;strong&gt; make text bold, but &lt;strong&gt; also adds semantic importance.</p>
+  </div>
+
+  <div class="example">
+    <p><i>Italic text</i> and <em>emphasized text</em>.</p>
+    <p>&lt;i&gt; and &lt;em&gt; make text italic, but &lt;em&gt; adds emphasis meaning.</p>
+  </div>
+
+  <div class="example">
+    <p><u>Underlined text</u> looks different in a sentence.</p>
+    <p>&lt;u&gt; underlines text.</p>
+  </div>
+
+  <div class="example">
+    <p>Water is H<sub>2</sub>O and area is L × W<sup>2</sup>.</p>
+    <p>&lt;sub&gt; is subscript, &lt;sup&gt; is superscript.</p>
+  </div>
+
+  <div class="example">
+    <p>This is <mark>highlighted</mark> text.</p>
+    <p>&lt;mark&gt; highlights text with background color.</p>
+  </div>
+
+  <div class="example">
+    <p><abbr title="World Health Organization">WHO</abbr> is an abbreviation.</p>
+    <p>&lt;abbr&gt; represents an abbreviation with a tooltip.</p>
+  </div>
+
+  <div class="example">
+    <p>The <code>print()</code> function outputs text in Python.</p>
+    <p>&lt;code&gt; shows inline code snippets.</p>
+  </div>
+
+  <h2 id="comparison">Inline vs Block Comparison</h2>
+
+  <table>
+    <caption>Differences Between Inline and Block Elements</caption>
+    <tr>
+      <th>Inline Elements</th>
+      <th>Block Elements</th>
+    </tr>
+    <tr>
+      <td>&lt;span&gt;</td>
+      <td>&lt;div&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;a&gt;</td>
+      <td>&lt;p&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;b&gt;</td>
+      <td>&lt;h1&gt;–&lt;h6&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;i&gt;</td>
+      <td>&lt;ul&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;u&gt;</td>
+      <td>&lt;ol&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;sup&gt;</td>
+      <td>&lt;blockquote&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;sub&gt;</td>
+      <td>&lt;hr&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;code&gt;</td>
+      <td>&lt;table&gt;</td>
+    </tr>
+  </table>
+
+  <p><a href="#top">Back to Top</a></p>
+
+</body>
+</html>
